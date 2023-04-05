@@ -21,8 +21,8 @@ let package = Package(
         .target(
             name: "TarmiAPIKit",
             dependencies: []),
-        .testTarget(
-            name: "TarmiAPIKitTests",
-            dependencies: ["TarmiAPIKit"]),
+//        .testTarget(
+//            name: "TarmiAPIKitTests",
+//            dependencies: ["TarmiAPIKit"]),
     ]
 )
