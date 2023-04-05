@@ -9,6 +9,7 @@ import Foundation
 
 public class HTTPClient{
    public static let sharedInstance = HTTPClient()
+    public static let text = "testText"
     
    public func executeRequest<T: Decodable>(url: String ,body: Data,tokenNeeded: Bool,parameters: [String: String]? = [:],model: T.Type,completion: @escaping(Result<T?, NetworkError>) -> Void){
         
